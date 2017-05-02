@@ -1,6 +1,6 @@
 Name     : entrypoints
 Version  : 0.2.2
-Release  : 1
+Release  : 2
 URL      : https://pypi.python.org/packages/f8/ad/0e77a853c745a15981ab51fa9a0cb4eca7a7a007b4c1970106ee6ba01e0c/entrypoints-0.2.2-py2.py3-none-any.whl
 Source0  : https://pypi.python.org/packages/f8/ad/0e77a853c745a15981ab51fa9a0cb4eca7a7a007b4c1970106ee6ba01e0c/entrypoints-0.2.2-py2.py3-none-any.whl
 Summary  : No detailed summary available
