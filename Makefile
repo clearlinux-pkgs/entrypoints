@@ -1,5 +1,5 @@
 PKG_NAME := entrypoints
-URL := https://github.com/takluyver/entrypoints/archive/0.2.2.tar.gz
+URL := http://pypi.debian.net/entrypoints/entrypoints-0.2.3.tar.gz
 
 
 include ../common/Makefile.common
