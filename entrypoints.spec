@@ -4,7 +4,7 @@
 #
 Name     : entrypoints
 Version  : 0.2.3
-Release  : 5
+Release  : 6
 URL      : http://pypi.debian.net/entrypoints/entrypoints-0.2.3.tar.gz
 Source0  : http://pypi.debian.net/entrypoints/entrypoints-0.2.3.tar.gz
 Summary  : Discover and load entry points from installed packages.
