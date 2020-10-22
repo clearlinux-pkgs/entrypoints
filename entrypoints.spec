@@ -4,7 +4,7 @@
 #
 Name     : entrypoints
 Version  : 0.3
-Release  : 26
+Release  : 27
 URL      : https://files.pythonhosted.org/packages/b4/ef/063484f1f9ba3081e920ec9972c96664e2edb9fdc3d8669b0e3b8fc0ad7c/entrypoints-0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b4/ef/063484f1f9ba3081e920ec9972c96664e2edb9fdc3d8669b0e3b8fc0ad7c/entrypoints-0.3.tar.gz
 Summary  : Discover and load entry points from installed packages.
@@ -20,17 +20,6 @@ BuildRequires : python3-dev
 Entry points are a way for Python packages to advertise objects with some
 common interface. The most common examples are ``console_scripts`` entry points,
 which define shell commands by identifying a Python function to run.
-
-*Groups* of entry points, such as ``console_scripts``, point to objects with
-similar interfaces. An application might use a group to find its plugins, or
-multiple groups if it has different kinds of plugins.
-
-The **entrypoints** module contains functions to find and load entry points.
-You can install it from PyPI with ``pip install entrypoints``.
-
-To advertise entry points when distributing a package, see
-`entry_points in the Python Packaging User Guide
-<https://packaging.python.org/en/latest/distributing.html#entry-points>`_.
 
 %package license
 Summary: license components for the entrypoints package.
@@ -68,12 +57,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582921467
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1603391631
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
-export FCFLAGS="$CFLAGS -fno-lto "
-export FFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
